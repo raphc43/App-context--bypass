@@ -4,7 +4,7 @@ if (Java.available) {
 			var WebView = Java.use("android.webkit.WebView");
 			WebView.setWebContentsDebuggingEnabled(true);
 			console.log(WebView);
-			console.log("WebView debug enabled successfully!");
+			console.log("[+] WebView debug enabled successfully!");
 		});			
 	});
 }
